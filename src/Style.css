@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+
+.container {
+    background: linear-gradient(to right,rgb(230, 128, 217),rgb(220, 220, 96));
+    display: flex;
+    width: auto;
+    height: 938px;
+    margin: 0 auto;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.imgPlace1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+
+
+.imgPlace2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.startButton {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 85px auto;
+    font-size: 25px;    
+    
+    
+}
+
+.startButton:hover {
+    background-color:color-mix(in srgb, rgb(164, 153, 153) 30%, rgb(118, 156, 29) 50%);
+   
+}
+
+.images {
+  border: solid color-mix(in srgb, rgb(255, 0, 0) 30%, rgb(26, 0, 0) 50%);
+  border-radius: 10px;
+}
